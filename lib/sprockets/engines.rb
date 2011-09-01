@@ -86,6 +86,7 @@ module Sprockets
   register_engine '.jst',    JstProcessor
   register_engine '.eco',    EcoTemplate
   register_engine '.ejs',    EjsTemplate
+  register_engine '.hjs',    HjsTemplate
 
   # CSS engines
   register_engine '.less',   Tilt::LessTemplate

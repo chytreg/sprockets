@@ -12,6 +12,7 @@ module Sprockets
   autoload :DirectiveProcessor,      "sprockets/directive_processor"
   autoload :EcoTemplate,             "sprockets/eco_template"
   autoload :EjsTemplate,             "sprockets/ejs_template"
+  autoload :HjsTemplate,             "sprockets/hjs_template"
   autoload :EngineError,             "sprockets/errors"
   autoload :Engines,                 "sprockets/engines"
   autoload :Environment,             "sprockets/environment"
